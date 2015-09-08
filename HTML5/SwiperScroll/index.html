@@ -52,7 +52,79 @@
     #upicon{
         position: absolute;
         z-index: 9999;
+        animation: upf 1s linear 0s infinite ;
+        /* Firefox: */
+        -moz-animation: upf 1s linear 0s infinite ;
+        /* Safari 和 Chrome: */
+        -webkit-animation: upf 1s linear 0s infinite ;
+        /* Opera: */
+        -o-animation: upf 1s linear 0s infinite ;
     }
+
+    @-webkit-keyframes upf {
+        0%,
+        100%,
+        20%,
+        50%,
+        80% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0)
+        }
+        40% {
+            -webkit-transform: translateY(-30px);
+            transform: translateY(-30px)
+        }
+        60% {
+            -webkit-transform: translateY(-15px);
+            transform: translateY(-15px)
+        }
+    }
+
+    @keyframes upf {
+        0%,
+        100%,
+        20%,
+        50%,
+        80% {
+            -webkit-transform: translateY(0);
+            -ms-transform: translateY(0);
+            transform: translateY(0)
+        }
+        40% {
+            -webkit-transform: translateY(-30px);
+            -ms-transform: translateY(-30px);
+            transform: translateY(-30px)
+        }
+        60% {
+            -webkit-transform: translateY(-15px);
+            -ms-transform: translateY(-15px);
+            transform: translateY(-15px)
+        }
+    }
+
+    @keyframes myfirst
+{
+from {background: red;}
+to {background: yellow;}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+from {background: red;}
+to {background: yellow;}
+}
+
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+from {background: red;}
+to {background: yellow;}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+from {background: red;}
+to {background: yellow;}
+}
 	</style>
 </head>
 <body>
@@ -88,7 +160,7 @@
                 </div>
             </div>
             <div class="swiper-pagination"></div>
-            <img src="arrow.png" id="upicon" style="width:20px;height:15px; top:440px; left:150px;" class="animated infinite bounce resize" alt="">
+            <img src="arrow.png" id="upicon" style="width:20px;height:15px; top:440px; left:150px;" class="resize" alt="">
         </div>
 	<script>
 	// 图片的缩放比例控制

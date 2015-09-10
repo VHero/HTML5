@@ -51,40 +51,40 @@ img{display: block;}
 
 /*mainbody02*/
 .mainBody02{width: 100%;background: url(image/linebg.jpg) no-repeat;}
-.live .livetitleimg{margin-top: 0.8rem;float: left;width: 2.4rem;}
+.live .livetitleimg{margin-top: 0.6rem;float: left;width: 2.4rem;}
 .live .livetitle{margin-top: 1rem;float: left;font-size: 1.4rem;font-weight: bold;color: #ff4e00;margin-left: 0.2rem;margin-bottom: 0.4rem;}
-.live .liveimg1{width: 90%;}
+.live .liveimg1{width: 90%;margin-left: 2.2rem;}
 .live .livecontent{margin-top: 1rem;margin-left: 2.2rem;width: 90%;}
 
 .guard{margin-top: 2rem;}
-.guard .guardtitleimg{margin-top: 0.8rem;float: left;width: 2.4rem;}
+.guard .guardtitleimg{margin-top: 0.6rem;float: left;width: 2.4rem;}
 .guard .guardtitle{margin-top: 1rem;float: left;font-size: 1.4rem;font-weight: bold;color: #ff4e00;margin-left: 0.2rem;}
 .guard .guardcontent{margin-left: 2.2rem;width: 90%;}
 .guard .guardimg1{width: 90%;margin-left: 2.2rem;margin-top: 0.6rem;}
 .guard .guardimg2{width: 90%;margin-left: 2.2rem;margin-top: 0.6rem;}
 
 .food{margin-top: 2rem;}
-.food .foodtitleimg{margin-top: 0.8rem;float: left;width: 2.4rem;}
+.food .foodtitleimg{margin-top: 0.6rem;float: left;width: 2.4rem;}
 .food .foodtitle{margin-top: 1rem;float: left;font-size: 1.4rem;font-weight: bold;color: #ff4e00;margin-left: 0.2rem;margin-bottom: 0.4rem;}
-.food .foodimg1{width: 90%;}
+.food .foodimg1{width: 90%;margin-left: 2.2rem;}
 .food .foodcontent{margin-left: 2.2rem;width: 90%;}
 
 .raise{margin-top: 2rem;}
-.raise .raisetitleimg{margin-top: 0.8rem;float: left;width: 2.4rem;}
+.raise .raisetitleimg{margin-top: 0.6rem;float: left;width: 2.4rem;}
 .raise .raisetitle{margin-top: 1rem;float: left;font-size: 1.4rem;font-weight: bold;color: #ff4e00;margin-left: 0.2rem;margin-bottom: 0.4rem;}
-.raiseimg1{width:38%;float: left;margin-top: 0.8rem;margin-right: 0.4rem;}
+.raiseimg1{width:38%;float: left;margin-top: 0.8rem;margin-right: 0.4rem;margin-left: 2.2rem;}
 .raiseimg2{width:38%; float: left;margin-top: 0.8rem;}
 .raiseimg3{width: 25%;float: left;margin-right: 0.4rem;margin-left: 2.2rem;margin-top: 0.4rem;}
 .raiseimg4{width: 25%;float: left;margin-top: 0.4rem;margin-right: 0.4rem;}
 .raiseimg5{width: 25%;float: left;margin-top: 0.4rem;}
 
 .doctor{margin-top: 2rem;}
-.doctor .doctortitleimg{margin-top: 0.8rem;float: left;width: 2.4rem;}
+.doctor .doctortitleimg{margin-top: 0.6rem;float: left;width: 2.4rem;}
 .doctor .doctortitle{margin-top: 1rem;float: left;font-size: 1.4rem;font-weight: bold;color: #ff4e00;margin-left: 0.2rem;margin-bottom: 0.4rem;}
-.doctorimg1{width: 90%;}
+.doctorimg1{width: 90%;margin-left: 2.2rem;}
 .doctorcontent1{width: 90%;margin-left: 2.2rem;margin-top: 1rem;}
 .doctorcontent2{width: 90%;margin-left: 2.2rem;margin-top: 1rem;}
-
+/*foot*/
 .foot{padding-top: 3rem;width: 100%;background: url(image/linebg.jpg) no-repeat;}
 .callimg{width: 33%;float: left;margin-right: 0.1rem;}
 .questionimg{width: 33%;float: left;margin-right: 0.1rem;}

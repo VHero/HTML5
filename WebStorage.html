@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Storage的使用</title>
+	<script>
+		function saveSession(id){
+			target=document.getElementById(id);
+			alert(target.value);
+		}
+		function readSession(id){
+			var target=document.getElementByid(id);
+			var str=sessionStorage.getItem(li);
+			str=123;
+			targer.innnerHTML=str;
+		}
+	</script>
+</head>
+<body>
+	<p id="p1"></p>
+	<input type="text" name="" id="oIn" value="123">
+	<input type="button" value="存储数据" onclick="saveSession(oIn)">
+	<input type="button" value="读取数据" onclick="readSession(p1)">
+
+</body>
+</html>

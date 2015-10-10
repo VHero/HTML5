@@ -1,0 +1,102 @@
+html{font-size: 62.5%;}
+body{font-family:"Microsoft YaHei",Arial, Helvetica, sans-serif;margin:0;padding:0;color:#333; background:#fff; position:relative;_overflow-x: hidden;overflow-x: hidden; }
+div,img,h3,h4,p,dd,dl,em,h2,h1{margin: 0; padding: 0; border: 0;}
+ul,li{list-style:none;margin:0;padding:0}
+form{margin:0;padding: 0;}
+a{text-decoration:none; outline:none;}
+a:hover{ text-decoration:none;}
+img{display: block;}
+.contain{width: 100%;}
+/*head*/
+.head{
+    background: #ac244a;
+    position: relative;
+}
+#logo img{width: 52.1875%; display: block;margin: 0 auto;padding: 2.5% 0;}
+.nav img{width:15%;position: absolute;left: 0;top: 0;}
+.search img{position: absolute;right: 0;top:0px;display: block;width:15%;}
+.banner img{width: 100%; vertical-align:bottom;}
+/*mainbody01*/
+.mainBody01{background: url(image/mainBody01bg.jpg) repeat-x;position: relative;background-size: 100% 100%;height: 24rem; }
+
+.nurselist{width: 30rem;height: 6.6rem;margin: 0 auto;padding-left: 0.2rem;}
+.nurselist li{margin-top: 4.2rem;padding-left: 0.2rem;}
+.nurselist .li1{float: left;height: 6.6rem;padding-left: 0;}
+.nurselist .li1 img{width: 5.0rem;height:6.6rem;  display: block;}
+.nurselist .li1 p{font-size: 1.4rem;color: #fff;margin-top:-1.8rem;margin-left: 1rem; }
+.nurselist .li1 p span{font-size: 1.2rem;}
+
+
+
+.nurselist .li2{float: left;height: 6.6rem;} 
+.nurselist .li2 img{width: 5.0rem;height:6.6rem;display: block;}
+.nurselist .li2 p{font-size: 1.4rem;color: #fff;margin-top:-1.8rem;margin-left: 1rem;}
+.nurselist .li2 p span{font-size: 1.2rem;}
+
+.nurselist .li3{float: left;height: 6.6rem;} 
+.nurselist .li3 img{width: 5.0rem;height:6.6rem;display: block;}
+.nurselist .li3 p{font-size: 1.4rem;color: #fff;margin-top:-1.8rem;margin-left: 1rem;}
+.nurselist .li3 p span{font-size: 1.2rem;}
+
+.nurselist .li4{float: left;height: 6.6rem;} 
+.nurselist .li4 img{width: 5.0rem;height:6.6rem;display: block;}
+.nurselist .li4 p{font-size: 1.4rem;color: #fff;margin-top:-1.8rem;margin-left: 1rem;}
+.nurselist .li4 p span{font-size: 1.2rem;}
+
+.nurselist .li5{float: left;height: 6.6rem;} 
+.nurselist .li5 img{width: 5.0rem;height:6.6rem;display: block;}
+.nurselist .li5 p{font-size: 1.4rem;color: #fff;margin-top:-1.8rem;margin-left: 1rem;}
+.nurselist .li5 p span{font-size: 1.2rem;}
+.mainBody01 .pcontent{color: #fff;padding: 6rem 0.2rem 0;width: 90%; margin: 0 auto;}
+
+/*mainbody02*/
+.mainBody02{width: 100%;background: url(image/linebg.jpg) no-repeat;}
+
+.live{position: relative;}
+.live .livetitleimg{float: left;width: 2.4rem;}
+.live .livetitle{margin-top: 1rem;font-size: 1.4rem;font-weight: bold;color: #ff4e00;margin-left: 0.2rem;margin-bottom: 0.4rem;}
+.live .liveimg1{width: 90%;margin-left: 2.2rem;}
+.live .imgwrap{width: 100%;}
+.live .livecontent{margin-top: 1rem;margin-left: 2.2rem;width: 90%;}
+.live .imgcontent{z-index: 2;position: absolute;top:15%;left: 2%; font-size: 1rem;-webkit-transform:scale(0.75);color: #4b1600;text-align: center;width: 50%;-o-transform:scale(1); }
+
+.guard{margin-top: 2rem;}
+.guard .guardtitleimg{margin-top: 0.6rem;float: left;width: 2.4rem;}
+.guard .guardtitle{margin-top: 1rem;float: left;font-size: 1.4rem;font-weight: bold;color: #ff4e00;margin-left: 0.2rem;}
+.guard .guardcontent{margin-left: 2.2rem;width: 90%;}
+.guard .guardimg1{width: 90%;margin-left: 2.2rem;margin-top: 0.6rem;}
+.guard .guardimg2{width: 90%;margin-left: 2.2rem;margin-top: 0.6rem;}
+.imgwrap1{position: relative;}
+.imgwrap1 .imgtitle{position: absolute;left: 40%;top: 6%;width: 100%;font-weight: bold;}
+.imgwrap1 .imgcontent{position: absolute;left: 35%;top: 40%;width: 100%;-webkit-transform:scale(0.9);line-height: 1.6rem;-o-transform:scale(1); }
+
+.imgwrap2{position: relative;}
+.imgwrap2 .imgtitle{position: absolute;left: 40%;top: 6%;width: 100%;font-weight: bold;}
+.imgwrap2 .imgcontent{position: absolute;left: 35%;top: 40%;width: 100%;-webkit-transform:scale(0.9);line-height: 1.6rem;-o-transform:scale(1); }
+
+.food{margin-top: 2rem;}
+.food .foodtitleimg{float: left;width: 2.4rem;}
+.food .foodtitle{margin-top: 1rem;font-size: 1.4rem;font-weight: bold;color: #ff4e00;margin-left: 0.2rem;margin-bottom: 0.4rem;}
+.food .foodimg1{width: 90%;margin-left: 2.2rem;}
+.food .foodcontent{margin-left: 2.2rem;width: 90%;}
+
+.raise{margin-top: 2rem;}
+.raise .raisetitleimg{margin-top: 0.6rem;float: left;width: 2.4rem;}
+.raise .raisetitle{margin-top: 1rem;float: left;font-size: 1.4rem;font-weight: bold;color: #ff4e00;margin-left: 0.2rem;margin-bottom: 0.4rem;}
+.raiseimg1{width:38%;float: left;margin-top: 0.8rem;margin-right: 0.4rem;margin-left: 2.2rem;}
+.raiseimg2{width:38%; float: left;margin-top: 0.8rem;}
+.raiseimg3{width: 25%;float: left;margin-right: 0.4rem;margin-left: 2.2rem;margin-top: 0.4rem;}
+.raiseimg4{width: 25%;float: left;margin-top: 0.4rem;margin-right: 0.4rem;}
+.raiseimg5{width: 25%;float: left;margin-top: 0.4rem;}
+
+.doctor{margin-top: 2rem;}
+.doctor .doctortitleimg{float: left;width: 2.4rem;}
+.doctor .doctortitle{margin-top: 1rem;font-size: 1.4rem;font-weight: bold;color: #ff4e00;margin-left: 0.2rem;margin-bottom: 0.4rem;}
+.doctorimg1{width: 90%;margin-left: 2.2rem;}
+.doctorcontent1{width: 90%;margin-left: 2.2rem;margin-top: 1rem;}
+.doctorcontent2{width: 90%;margin-left: 2.2rem;margin-top: 1rem;}
+/*foot*/
+.foot{padding-top: 3rem;width: 100%;background: url(image/linebg.jpg) no-repeat;}
+.callimg{width: 33%;float: left;margin-right: 0.1rem;}
+.questionimg{width: 33%;float: left;margin-right: 0.1rem;}
+.indeximg{width: 33%;float: left;}

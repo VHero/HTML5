@@ -1,0 +1,26 @@
+@graybackground:#ccc;
+@white:#fff;
+@black:#333;
+@whitebackground:yellow;
+@headheight:100px;
+@navheight:100px;
+@headwidth:100px;
+@navwidth:100%;
+@changewidth:@navwidth/2;
+@change:@headheight+100;
+@by:banner;
+@font16:16px;
+@images:"image";
+@color:color;
+header{color:@white;background: @graybackground;height:@headheight;width:@headwidth; }
+nav{color: @black;background:@whitebackground;height: @navheight;width: @navwidth; }
+.wrap{color:@white;background: @graybackground;height:@change;width:@changewidth;}
+.@{by}{
+	font-weight: bold;
+	font-size: @font16;
+	background: url("@{images}/anlibig2.jpg") no-repeat;
+	background-size: 100% 100%;
+	height: 329px;
+	width: 571px;
+	@{color}:red;
+}

@@ -60,6 +60,9 @@
         	}
         };
         qtyListeners();
+        var doCustomValidity=function(field,msg){
+        	
+        }
     };
     window.addEventListener('load', init, false);
 })();

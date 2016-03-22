@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>表单示例</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="../modernizr-1.7.js"></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <form action="/submit" name="order" method="post">
+        <h1>表单</h1>
+        <!-- 联系方式部分 -->
+        <fieldset>
+            <legend>联系人详情</legend>
+            <ul>
+                <li>
+                    <label class="required">
+                        <div>姓名</div>
+                        <input type="text" name="name" required autofocus>
+                    </label>
+                </li>
+                <li>
+                    <label class="required">
+                        <div>邮箱地址</div>
+                        <input type="text" name="email" required>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <div>联系地址</div>
+                        <input type="text" name="address1" placeholder="北京">
+                    </label>
+                    <div>&nbsp;</div>
+                    <input type="text" name="address2" placeholder="深圳">
+                    <div>&nbsp;</div>
+                    <input type="text" name="city" class="city" placeholder="云南">
+                    <input type="text" name="state" class="state" placeholder="丽江">
+                    <input type="text" name="zip" class="zip" placeholder="小城">
+                    <div>&nbsp;</div>
+                    <select name="country" id="">
+                        <option value="0">国家</option>
+                        <option value="1">中国</option>
+                        <option value="2">美国</option>
+                        <option value="3">加拿大</option>
+                    </select>
+                </li>
+                <li>
+                    <label>
+                        <div>门牌号</div>
+                        <input type="tel" name="homepage">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <div>手机号码</div>
+                        <input type="tel" name="cellphone">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <div>QQ</div>
+                        <input type="text" name="qq">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <div>QQ邮箱</div>
+                        <span class="twitter_prefix">@</span>
+                        <input type="text" name="qqemail" class="twitter">
+                    </label>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+        	<legend>登陆详情</legend>
+        	<ul>
+        		<li>
+        			<label class="required">
+        				<div>password</div>
+        				<input type="password" name="password" required>
+        			</label>
+        		</li>
+        		<li>
+        			<label for="" class="required">
+        				<div>确认密码</div>
+        				<input type="password" name="confirm_password" required>
+        			</label>
+        		</li>
+        	</ul>
+        </fieldset>
+        <fieldset>
+        	<legend>订单详情</legend>
+        	<table>
+        		<thead>
+        			<tr>
+        				<th>产品编号</th>
+        				<th>描述</th>
+        				<th>数量</th>
+        				<th>价格</th>
+        				<th>总价</th>
+        			</tr>
+        		</thead>
+        		<tbody>
+        			<tr>
+        				<td>Comp001 <input type="hidden" name="product_code" value="comp001"></td>
+        				<td>The Ultimate Smartphone</td>
+        				<td><input type="number" data-price="399.99" name="quantity" value="0" min="0" max="99" maxlength="2"></td>
+        				<td>$399.99</td>
+        				<td>
+        					<output name="item_total" class="item_total">$0.00</output>
+        				</td>
+        			</tr>
+        			<tr>
+        				<td>Comp002 <input type="hidden" name="product_code" value="comp001"></td>
+        				<td>The Ultimate Tablet</td>
+        				<td><input type="number" data-price="499.99" name="quantity" value="0" min="0" max="99" maxlength="2"></td>
+        				<td>$499.99</td>
+        				<td>
+        					<output name="item_total" class="item_total">$0.00</output>
+        				</td>
+        			</tr>
+        			<tr>
+        				<td>Comp003 <input type="hidden" name="product_code" value="comp001"></td>
+        				<td>The Ultimate Netbook</td>
+        				<td><input type="number" data-price="299.99" name="quantity" value="0" min="0" max="99" maxlength="2"></td>
+        				<td>$299.99</td>
+        				<td>
+        					<output name="item_total" class="item_total">$0.00</output>
+        				</td>
+        			</tr>
+        		</tbody>
+        		<tfoot>
+        			<tr>
+        				<td colspan="4">Order Total</td>
+        				<td><output name="order_total" id="order_total">$0.00</output></td>
+        			</tr>
+        		</tfoot>
+        	</table>
+        </fieldset>
+        <fieldset>
+        	<legend>支付详情</legend>
+        	<ul>
+        		<li>
+        			<label class="required">
+        				<div>信用卡名称</div>
+        				<input type="text" name="card_name" required>
+        			</label>
+        		</li>
+        		<li>
+        			<label class="required">
+        				<div>信用卡号</div>
+        				<input type="text" name="card_number" pattern="[0-9]{13,16}" required title="13到16位数字不含空格">
+        			</label>
+        		</li>
+        		<li>
+        			<label class="required">
+        				<div>日期</div>
+        				<input type="month" name="card_expiry" maxlength="7" placeholder="YYYY-MM" required value="2015-06">
+        			</label>
+        		</li>
+        		<li>
+        			<label>
+        				<div>安全码</div>
+        				<input type="text" name="card_cvv2" class="cvv" maxlength="3" pattern="[0-9]{3}" required title="3位数字">
+        				<span>3个数字字符</span>
+        			</label>
+        		</li>
+        	</ul>
+        </fieldset>
+        <div class="buttons">
+            <input type="submit" value="提交表单">
+            <input type="submit" value="保存表单" formnovalidate formaction="/save" id="saveOrder">
+        </div>
+    </form>
+    
+</body>
+
+</html>

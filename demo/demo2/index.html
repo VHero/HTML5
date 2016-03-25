@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="browser-view">
+    <header>
+        <h1>HTML5编辑器</h1></header>
+    <section id="list">
+        <h1>文件浏览</h1>
+        <details open id="filesdrop">
+            <summary>创建文件</summary>
+            <form name="create">
+                <div>
+                    <h2>创建一个新文件</h2>
+                    <input type="text" placeholder="示例:index.html" name="name">
+                    <input type="submit" value="新建">
+                </div>
+            </form>
+            <div class="spacer">OR</div>
+            <form name="import">
+                <div>
+                    <h2>上传文件</h2>
+                    <input type="file" name="files" multiple accept="text/html">
+                    <input type="submit" value="上传">
+                </div>
+            </form>
+            <div class="note">
+                <strong>你可以拖拽文件到这个盒子的任意位置上传文件</strong>
+            </div>
+        </details>
+        <details open>
+            <summary>我的文件</summary>
+            <div class="note top">
+            	你当前有<span id="file_count">0</span>文件
+            </div>
+            <ul id="files"></ul>
+            <div class="note">
+            	<strong>提示:</strong>你拖拽这个列表中的任何文件都会下载到你的电脑上
+            </div>
+        </details>
+    </section>
+    <section id="editor">
+        <h1><span id="file_name"></span><a href="#list"></a>可视化编辑</h1>
+        <div class="mode-toolbar">
+            <div class="left">
+                <div>Edit Mode:</div>
+                <button id="edit_visual" class="split_left active">Visual</button>
+                <button id="edit_html" class="split_right">HTMl</button>
+            </div>
+            <div class="right"></div>
+        </div>
+    </section>
+</body>
+
+</html>
